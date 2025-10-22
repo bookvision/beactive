@@ -29,6 +29,7 @@ $ sudo ./dnscrypt-proxy
 接下来可以测试一下。再打开一个终端，使用 dig 命令做一次 DNS 解析。
 
 ```
+
 $ dig google.com @127.0.0.1
 
 ; <<>> DiG 9.20.11-4-Debian <<>> google.com @127.0.0.1
